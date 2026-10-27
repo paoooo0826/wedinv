@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Sam and Yan//Wedding Invitation//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:sam-and-yan-20270326@wedding-invitation
+DTSTAMP:20261026T221905Z
+DTSTART:20270326T070000Z
+SUMMARY:Sam & Yan — Wedding
+LOCATION:D Manor Events Center
+DESCRIPTION:Guest arrival: 3:00 PM. Ceremony: 3:30 PM at D Manor Events C
+ enter (Garden). Reception: 5:00 PM. All times are Philippine time (UTC+0
+ 8:00).
+END:VEVENT
+END:VCALENDAR

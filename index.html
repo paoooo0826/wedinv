@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#641722">
+  <meta name="description" content="Sam & Yan invite you to celebrate their wedding on March 26, 2027, at D Manor Events Center.">
+  <title>Sam & Yan — A Wedding Invitation</title>
+  <link rel="icon" href="assets/wax-seal.webp">
+  
+  
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+<link rel="preload" href="fonts/cormorant-garamond-400.woff" as="font" type="font/woff" crossorigin="anonymous"><link rel="preload" href="fonts/great-vibes-400.woff" as="font" type="font/woff" crossorigin="anonymous">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to invitation</a>
+  <section class="cover satin" id="cover" aria-labelledby="cover-heading">
+    <div class="cover-content">
+      <p class="eyebrow">A little letter, a lifetime of love</p>
+      <h1 id="cover-heading" class="script">You've got mail</h1>
+      <button class="envelope-button" id="open-invitation" aria-label="Open Sam and Yan's wedding invitation">
+        <span class="envelope-crop"><img src="assets/envelope.webp" alt="Burgundy wedding envelope with delicate lace edging" width="736" height="490" fetchpriority="high"></span>
+        <img class="envelope-flowers" src="assets/dried-flowers.png" alt="" width="80" height="200">
+        <img class="envelope-seal" src="assets/wax-seal.webp" alt="" width="142" height="150">
+      </button>
+      <button class="text-link cover-link" id="open-text">Open the Invitation <span aria-hidden="true">→</span></button>
+      <p class="cover-caption">Sam & Yan <span>·</span> March 26, 2027</p>
+    </div>
+  </section>
+
+  <div id="invitation" hidden>
+    <header class="site-header">
+      <a class="brand script" href="#home" aria-label="Sam and Yan, invitation home">Sam & Yan</a>
+      <nav aria-label="Wedding invitation">
+        <a href="#home">Letter</a><a href="#details">Details</a><a href="#entourage">Entourage</a><a href="#rsvp">RSVP</a>
+      </nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <section data-page="home" id="home" aria-labelledby="letter-heading">
+        <div class="letter-scene satin">
+          <img loading="lazy" decoding="async" class="floral floral-left" src="assets/floral-scroll.webp" alt="" width="367" height="799">
+          <img loading="lazy" decoding="async" class="floral floral-right" src="assets/floral-scroll.webp" alt="" width="367" height="799">
+          <article class="letter-sheet"><div class="letter-content">
+            <div class="letter-title-group">
+              <p class="letter-prelude script">this is where</p>
+              <h2 class="script" id="letter-heading">Our love begins</h2>
+            </div>
+            <div class="letter-copy">
+              <p>Through laughter, growth, and endless tenderness, we've arrived at this long-awaited moment.</p>
+              <p>Every conversation, every embrace, every small gesture has brought us here, more certain than ever of the path we've chosen to walk together.</p>
+              <p>Now, we want to celebrate this new beginning surrounded by the people we love, the ones who shaped our story along the way.</p>
+              <p>Having you with us would be the greatest gift of all.</p>
+              <p class="letter-love script">love,</p>
+              <p class="letter-names script">Sam & Yan</p>
+            </div>
+            </div><div class="letter-envelope-space" aria-hidden="true"></div><img loading="lazy" decoding="async" class="letter-flowers" src="assets/dried-flowers.png" alt="" width="80" height="200">
+            <img loading="lazy" decoding="async" class="letter-seal" src="assets/wax-seal.webp" alt="" width="142" height="150">
+          </article>
+        </div>
+        <div class="countdown-section satin">
+          <img loading="lazy" decoding="async" class="count-lantern left" src="assets/lantern.webp" alt="" width="85" height="199">
+          <img loading="lazy" decoding="async" class="count-lantern right" src="assets/lantern.webp" alt="" width="85" height="199">
+          <p class="script countdown-title">days before we say I Do</p>
+          <div class="countdown" role="timer" aria-label="Countdown to March 26, 2027 at 3 PM in the Philippines">
+            <div><strong id="days">—</strong><span>Days</span></div><b aria-hidden="true">:</b>
+            <div><strong id="hours">—</strong><span>Hours</span></div><b aria-hidden="true">:</b>
+            <div><strong id="minutes">—</strong><span>Minutes</span></div><b aria-hidden="true">:</b>
+            <div><strong id="seconds">—</strong><span>Seconds</span></div>
+          </div>
+          <p class="countdown-caption" id="countdown-caption">March 26, 2027 · D Manor Events Center</p>
+        </div>
+        <div class="vintage-menu" aria-label="Explore the invitation">
+          <div class="menu-grid">
+            <a class="plaque-card" href="#details"><img loading="lazy" decoding="async" class="plaque-art" src="assets/vintage-plaque.webp" alt="" width="450" height="800"><img loading="lazy" decoding="async" class="card-seal" src="assets/wax-seal.webp" alt="" width="142" height="150"><span class="plaque-content"><span class="script card-title">Details</span><span class="text-link">View Details <span aria-hidden="true">→</span></span></span></a>
+            <a class="plaque-card" href="#entourage"><img loading="lazy" decoding="async" class="plaque-art" src="assets/vintage-plaque.webp" alt="" width="450" height="800"><span class="plaque-content"><span class="script card-title">The Entourage</span><span class="text-link">View Entourage <span aria-hidden="true">→</span></span></span><img loading="lazy" decoding="async" class="card-mirror" src="assets/vintage-mirror.webp" alt="" width="142" height="200"></a>
+            <div class="save-date-card"><img loading="lazy" decoding="async" class="card-seal" src="assets/wax-seal.webp" alt="" width="142" height="150"><p class="script save-heading">Save the Date</p><p class="save-date"><time datetime="2027-03-26T15:00:00+08:00">March 26, 2027, at 3 PM</time></p><p class="eyebrow">At D Manor Events Center</p><a class="calendar-link text-link" href="sam-and-yan-wedding.ics" download="Sam-and-Yan-Wedding.ics">Add to Calendar <span aria-hidden="true">↓</span></a><img loading="lazy" decoding="async" class="card-watch" src="assets/pocket-watch.webp" alt="" width="177" height="200"></div>
+            <a class="plaque-card rsvp-card" href="#rsvp"><img loading="lazy" decoding="async" class="plaque-art" src="assets/vintage-plaque.webp" alt="" width="450" height="800"><span class="plaque-content"><span class="script card-title">Kindly RSVP</span><span class="text-link">RSVP Details <span aria-hidden="true">→</span></span></span></a>
+          </div>
+        </div>
+      </section>
+
+      <section data-page="details" id="details" hidden aria-labelledby="details-heading">
+        <div class="page-intro"><a class="back-link" href="#home">← Back to Invitation</a><span class="eyebrow">26 · 03 · 2027</span></div>
+        <article class="lace-paper">
+          <h2 class="script page-title" id="details-heading">The Details</h2>
+          <section class="dress-section" aria-labelledby="dress-heading">
+            <h3 class="small-title" id="dress-heading">Dress Code</h3>
+            <p>We would love to see you in your best and most comfortable <strong class="attire-phrase">semi-formal attire</strong> that suits our motif.</p>
+            <div class="attire-row">
+              <div class="attire-illustrations"><img loading="lazy" decoding="async" src="assets/attire-man.webp" alt="Semi-formal brown suit" width="55" height="150"><img loading="lazy" decoding="async" src="assets/attire-woman.webp" alt="Semi-formal dark brown dress" width="48" height="147"></div>
+              <div class="attire-swatches" aria-label="Suggested attire colors"><div><span style="--swatch:#704530"></span><small>Chocolate</small></div><div><span style="--swatch:#d0a58a"></span><small>Dusty nude</small></div><div><span style="--swatch:#f1d6a7"></span><small>Champagne</small></div><div><span style="--swatch:#b5a48d"></span><small>Taupe</small></div></div>
+            </div>
+            <p class="attire-restriction">Please do not wear shades of <strong>white, burgundy, or green.</strong></p>
+          </section>
+          <div class="ceremony-grid">
+            <section><h3 class="small-title">Ceremony</h3><p class="event-time">3:30 PM</p><p>Join us for our wedding ceremony as we exchange vows and celebrate our love. Your presence is cherished as we begin our journey together.</p><p class="venue-name">D Manor Events Center<br><em>Garden</em></p></section>
+            <section><h3 class="small-title">Reception</h3><p class="event-time">5:00 PM</p><p>After the ceremony, please join us for a reception filled with joy and celebration. We can't wait to celebrate and dance the night away with you!</p></section>
+          </div>
+          <section class="etiquette-block"><span class="tiny-ornament" aria-hidden="true">❦</span><h3 class="small-title">Gift Guide</h3><p>With all that we have, we are truly blessed. Your presence and prayers are all that we request. But if you desire to give nonetheless, a monetary gift is the one we suggest.</p></section>
+          <section class="etiquette-block"><h3 class="small-title">Unplugged Ceremony</h3><p>We are truly grateful to celebrate this special day with you. Kindly turn off all phones and cameras during the ceremony so everyone can be fully present in the moment. We have a team to capture every detail, and you are welcome to take photos after the ceremony and throughout the reception.</p></section>
+          <section class="etiquette-block"><h3 class="small-title">Can I Bring Someone With Me?</h3><p>Due to space and seating constraints, only the people listed on the invitation may attend. Thank you for understanding and helping us ensure that every guest has a comfortable and enjoyable experience.</p></section>
+        </article>
+        <section class="location-section" aria-labelledby="location-heading">
+          <div class="location-copy"><span class="eyebrow">We'll meet you here</span><h2 class="script" id="location-heading">D Manor Events Center</h2><p>Friday, March 26, 2027</p><dl class="day-schedule"><div><dt>3:00 PM</dt><dd>Guest arrival</dd></div><div><dt>3:30 PM</dt><dd>Wedding ceremony · Garden</dd></div><div><dt>5:00 PM</dt><dd>Reception</dd></div></dl><div class="venue-actions"><a class="button" href="https://www.google.com/maps/search/?api=1&query=D+Manor+Events+Center&query_place_id=ChIJlTRh36vz_zIRd5nwDnZgeZg" target="_blank" rel="noopener noreferrer">Open Directions <span aria-hidden="true">↗</span></a><a class="text-link" href="sam-and-yan-wedding.ics" download="Sam-and-Yan-Wedding.ics">Add to Calendar ↓</a></div></div>
+          <iframe title="D Manor Events Center location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=place_id%3AChIJlTRh36vz_zIRd5nwDnZgeZg&z=16&output=embed" allowfullscreen></iframe>
+        </section>
+        <div class="bottom-navigation"><a class="text-link" href="#home">← Back to Invitation</a><a class="text-link" href="#entourage">The Entourage →</a></div>
+      </section>
+
+      <section data-page="entourage" id="entourage" hidden aria-labelledby="entourage-heading">
+        <div class="page-intro"><a class="back-link" href="#home">← Back to Invitation</a><span class="eyebrow">The people we hold dear</span></div>
+        <div class="entourage-scene">
+          <img loading="lazy" decoding="async" class="entourage-lantern left" src="assets/map-decoration.webp" alt="" width="272" height="638"><img loading="lazy" decoding="async" class="entourage-lantern right" src="assets/extra-decoration.webp" alt="" width="250" height="800">
+          <article class="entourage-paper">
+            <p class="script family-name">Shaaban – Borja</p><h2 class="script page-title" id="entourage-heading">The Entourage</h2>
+            <div class="parents-block"><h3 class="small-title">Parents of the Groom</h3><div class="name-pair"><p>Mr. Reynaldo R. Almacen</p><p>Mrs. Marison I. Almacen</p></div><h3 class="small-title">Parents of the Bride</h3><div class="name-pair"><p>Mr. Dan E. Borja</p><p>Mrs. Myrna A. Borja</p></div><h3 class="small-title">Officiant</h3><p>Mr. Nelson Bagongon</p></div>
+            <section class="principal-sponsors"><h3 class="small-title">Principal Sponsors</h3><ul class="sponsor-pairs"><li><span>Ms. Dorothy Dominggo</span><span>Mrs. Jessie Mae Bagongon</span></li><li><span>Mrs. Merlit Febra</span><span>Mr. Charlie Febra</span></li><li><span>Mrs. Hannah Minfreda T. Tura</span><span>Mr. Oscar II Tura</span></li><li><span>Mrs. Hakisa Balacuit</span><span>Mr. Wilfredo Balacuit</span></li><li><span>Mrs. Emie De Guzman</span><span>Mr. Colin De Guzman</span></li><li><span>Mrs. Roselle Agcang</span><span>Mr. Jordan Agcang</span></li><li><span>Mrs. Shellane Cariaso</span><span>Mrs. Marites Salan</span></li><li><span>Mrs. Rosario Figura</span><span>Mr. Paquito Figura</span></li><li><span>Mrs. Chona Guzman</span><span>Mr. Rodman Guzman</span></li><li><span>Mr. John Barrientos</span><span>Mr. Judy Morales</span></li></ul></section>
+            <section class="secondary-sponsors"><h3 class="small-title">Secondary Sponsors</h3><div class="three-columns"><div><h4>Candle</h4><p>Mr. Kevin T. Lumban<br>Mrs. Angelou Rose J. Lumban</p></div><div><h4>Cord</h4><p>Mr. Andreas Ray L. Almacen<br>Mrs. Mary Cris C. Almacen</p></div><div><h4>Veil</h4><p>Mr. Ernie C. Alon<br>Mrs. Gladys S. Alon</p></div></div></section>
+            <div class="party-pairs"><div class="party-pair"><div><h3 class="small-title">Matron of Honor</h3><p>Mrs. Danica Myra B. Balbuena</p></div><div><h3 class="small-title">Man of Honor</h3><p>Mr. Marc Jhon Balbuena</p></div></div><div class="party-pair"><div><h3 class="small-title">Maid of Honor</h3><p>Ms. Eleren P. Tulawie</p></div><div><h3 class="small-title">Best Man</h3><p>Mr. Roy Lumban</p></div></div><div class="party-pair"><div><h3 class="small-title">Bridesmaids</h3><p>Ms. Dianne Gwynn A. Kionisala<br>Ms. Marissa L. Almacen<br>Ms. Mary Amabelle C. Querol, RN<br>Ms. Quenisa Hadji Aiman, RN</p></div><div><h3 class="small-title">Groomsmen</h3><p>Mr. Dan A. Borja<br>Mr. Jonathan A. Lacio<br>Mr. Patrick Neil A. Jaguit<br>Mr. Andrio Gabriel L. Almacen</p></div></div></div>
+            <section class="bearers"><div><h3 class="small-title">Coin Bearer</h3><p>Genrie S. Alon</p></div><div><h3 class="small-title">Bible Bearer</h3><p>Aiden C. Almacen</p></div><div><h3 class="small-title">Ring Bearer</h3><p>Hadi Gabriel A. Ramos</p></div></section>
+            <section class="flower-girls"><h3 class="small-title">Flower Girls</h3><p>Danela Macey B. Balbuena<br>Daleanah A. Borja</p></section>
+          </article>
+        </div>
+        <div class="bottom-navigation"><a class="text-link" href="#home">← Back to Invitation</a><a class="text-link" href="#rsvp">Kindly RSVP →</a></div>
+      </section>
+
+      <section data-page="rsvp" id="rsvp" hidden aria-labelledby="rsvp-heading" class="rsvp-scene satin">
+        <div class="page-intro"><a class="back-link" href="#home">← Back to Invitation</a></div>
+        <article class="rsvp-paper">
+          <img loading="lazy" decoding="async" class="rsvp-seal" src="assets/wax-seal.webp" alt="" width="142" height="150">
+          <p class="eyebrow">With love, Sam & Yan</p><h2 class="script page-title" id="rsvp-heading">Kindly RSVP</h2>
+          <p>Your presence would mean the world to us.</p><p>We look forward to celebrating this new beginning with the people we love.</p>
+          <div class="rsvp-contact" id="rsvp-contact"><p>RSVP contact details will be announced soon.<br>Please keep in touch with Sam & Yan.</p></div>
+          <p class="rsvp-footnote">This is an intimate celebration. Kindly remember that only the guests named on your invitation may attend.</p>
+          <a href="#home" class="button">Return to the Invitation</a>
+        </article>
+      </section>
+    </main>
+    <footer><p class="script">Sam & Yan</p><span>March 26, 2027 <i>·</i> D Manor Events Center</span><div class="footer-actions"><button class="footer-back-to-top" type="button">Back to Top ↑</button><a href="#cover">Close Invitation</a></div></footer><button class="back-to-top" id="back-to-top" type="button" hidden aria-label="Back to top of the current page">Back to Top ↑</button>
+  </div>
+  <noscript><style>#cover{display:none!important}#invitation{display:block!important}[data-page][hidden]{display:block!important}.site-header{position:static}</style><p class="noscript-note">The invitation is below. Enable JavaScript for the envelope, page navigation, and countdown.</p></noscript>
+</body>
+</html>
