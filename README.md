@@ -4,7 +4,11 @@ Recreated from the supplied Canva design DAHYRaYBQ78. This version preserves the
 
 ## Use or deploy
 
-The website is buildless. Open `dist/index.html`, or upload the contents of `dist/` to any static host. No installation, server, database, or API keys are required. All artwork is bundled locally. Cormorant Garamond (body, labels, and controls) and Great Vibes (wedding titles) are bundled locally with their OFL licenses; fonts load without contacting Google Fonts. The venue map requires an internet connection.
+The website is buildless. Open `index.html`, or upload this repository to any static host. No installation, server, database, or API keys are required. All artwork is bundled locally. Cormorant Garamond (body, labels, and controls) and Great Vibes (wedding titles) are bundled locally with their OFL licenses; fonts load without contacting Google Fonts. The venue map requires an internet connection.
+
+Keep the `assets/` and `fonts/` directories intact. The HTML and CSS reference those paths; uploading every file into the root breaks the pictures and fonts.
+
+For Vercel, import `paoooo0826/wedinv`, select the repository root, and deploy `main`. The included `vercel.json` selects the Other preset and serves the root directory without a build step.
 
 Pages: envelope cover → letter / countdown / vintage menu → details, entourage, or RSVP. Navigation supports browser Back and direct hash links. The brand and navigation share a centered axis, menu objects have matching footprints, and a centered Back to Top control appears on long pages. On mobile, layouts reflow and text stays readable. Keyboard navigation, focus styles, reduced motion, and a printable details/entourage view are included.
 
@@ -25,7 +29,7 @@ The original countdown pointed to midnight; the website counts down to the invit
 
 The original fifth Canva page is blank and contains no contact address, RSVP form, or deadline. This version displays a clear contact-details placeholder and does not collect, store, or pretend to submit responses.
 
-To activate the RSVP button, set either `rsvpUrl` to a confirmed HTTPS response-form URL or `rsvpEmail` to the couple's confirmed email in `dist/app.js`. No other edits are needed. Do not publish a placeholder address as a real contact.
+To activate the RSVP button, set either `rsvpUrl` to a confirmed HTTPS response-form URL or `rsvpEmail` to the couple's confirmed email in `app.js`. No other edits are needed. Do not publish a placeholder address as a real contact.
 
 ## Visual treatment
 
