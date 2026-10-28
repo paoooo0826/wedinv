@@ -66,9 +66,13 @@ main:focus,[tabindex='-1']:focus{outline:none}[data-page].entering{animation:fad
 .menu-grid{width:min(100%,1120px);margin-inline:auto;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-6);align-items:center;justify-items:center}
 .plaque-card,.save-date-card{width:100%;min-width:0;aspect-ratio:1.55;min-height:300px;text-align:center;color:var(--burgundy)}
 .plaque-card{position:relative;display:grid;place-items:center;isolation:isolate;container-type:size;overflow:hidden;text-decoration:none;transition:transform .25s}.plaque-card:hover{transform:translateY(-4px)}
-.plaque-art{position:absolute;z-index:-1;left:50%;top:50%;width:120cqh;height:143cqw;max-width:none;transform:translate(-50%,-50%) rotate(90deg);clip-path:inset(16% 5% 12% 5%)}
+/* The artwork's paper is centered at y=417 in its 800px source. After
+   rotation, compensate for that margin so the frame and text share an axis. */
+.plaque-art{position:absolute;z-index:-1;left:calc(50% + 3.04cqw);top:50%;width:120cqh;height:143cqw;max-width:none;transform:translate(-50%,-50%) rotate(90deg);clip-path:inset(16% 5% 12% 5%)}
 .plaque-content{position:relative;width:86%;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:var(--space-2);padding:var(--space-3) 0;z-index:2}
+.plaque-card[href="#details"] .plaque-content{transform:translateY(8px)}
 .card-title,.save-heading{font:400 clamp(38px,3.5vw,48px)/1.2 var(--script);text-align:center}.plaque-content .text-link{font-size:14px}
+.plaque-card[href="#details"] .card-title{transform:translateX(-.045em)}
 .card-seal{position:absolute;width:60px;top:12px;left:50%;transform:translateX(-50%);z-index:3;filter:drop-shadow(0 2px 2px #340b1630)}
 .card-mirror{position:absolute;width:75px;bottom:10px;right:22px;pointer-events:none}
 .save-date-card{position:relative;padding:40px 30px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:var(--ivory);box-shadow:inset 0 0 30px #b59a692e;border:1px solid #c9b88e}
