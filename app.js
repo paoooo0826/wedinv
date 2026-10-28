@@ -2,7 +2,7 @@
    couple's confirmed email address; leave both blank until details are ready. */
 const WEDDING = Object.freeze({
   names: 'Sam & Yan',
-  date: '2027-03-26T15:00:00+08:00',
+  date: '2027-03-26T15:30:00+08:00',
   venue: 'D Manor Events Center',
   rsvpUrl: '',
   rsvpEmail: ''

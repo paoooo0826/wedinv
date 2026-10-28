@@ -15,7 +15,7 @@ Pages: envelope cover → letter / countdown / vintage menu → details, entoura
 ## Confirmed source details
 
 - Sam & Yan; March 26, 2027.
-- Invitation arrival time: 3:00 PM Philippine time.
+- Invitation time: 3:30 PM Philippine time.
 - Ceremony: 3:30 PM, D Manor Events Center (Garden).
 - Reception: 5:00 PM.
 - Semi-formal attire. Guests must not wear white, burgundy, or green.
@@ -23,7 +23,7 @@ Pages: envelope cover → letter / countdown / vintage menu → details, entoura
 - Guests are limited to those named on the invitation.
 - All entourage names and assignments come from the Canva reference.
 
-The original countdown pointed to midnight; the website counts down to the invitation's stated 3 PM arrival. The decorative schedule image in Canva used different times, so the website's schedule follows the explicit invitation text above. The calendar download uses the same date and Philippine time; no end time has been invented.
+The invitation time was updated to 3:30 PM Philippine time at the user's request. The countdown, displayed schedule, and calendar download use that same time; no end time has been invented.
 
 ## RSVP
 
